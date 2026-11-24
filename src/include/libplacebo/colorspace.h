@@ -304,7 +304,7 @@ static inline bool pl_color_transfer_is_hdr(enum pl_color_transfer trc)
 // This defines the display-space standard reference white level (in cd/m^2)
 // that is assumed for SDR content, for use when mapping between HDR and SDR in
 // display space. See ITU-R Report BT.2408 for more information.
-#define PL_COLOR_SDR_WHITE 203.0f
+#define PL_COLOR_SDR_WHITE 100.0f
 
 // This defines the reference white level for scRGB (IEC 61966-2-2), in cd/m^2.
 // In scRGB, a linear signal value of 1.0 corresponds to exactly 80 cd/m^2.
